@@ -8,20 +8,17 @@ controller = GastosController()
 def home():
     return jsonify({"message": "API FinTrack Online!"})
 
-# Rota para cadastrar gasto
 @app.route("/gastos", methods=["POST"])
 def cadastro_gasto():
     data = request.json
     response = controller.adicionar_gasto(data)
     return jsonify(response)
 
-# Rota para listar gastos
 @app.route("/gastos", methods=["GET"])
 def listar_gastos():
     response = controller.listar_gastos()
     return jsonify(response)
 
-# Rota para estatísticas
 @app.route("/gastos/estatisticas", methods=["GET"])
 def estatisticas():
     response = controller.estatisticas()
