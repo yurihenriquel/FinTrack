@@ -48,3 +48,24 @@ Criar um formulário HTML para cadastro de gastos financeiros, aplicando valida�
 
 ### Resultado
 Tela funcional para cadastro de gastos, preparada para comunicação com o backend via JavaScript.
+
+---
+
+## Etapa 3 — JavaScript e Captura do Formulário
+
+### Objetivo da etapa
+Implementar a lógica em JavaScript para capturar os dados do formulário de cadastro de gastos.
+
+---
+
+### Conceitos aplicados
+- DOM (Document Object Model)
+- Eventos em JavaScript
+- Manipulação de formulários
+- Objetos JavaScript
+- Prevenção de comportamento padrão
+
+---
+
+###  Resultado
+Formulário funcional com captura de dados no frontend, pronto para integração com o backend.
